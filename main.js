@@ -80,7 +80,7 @@ equals.addEventListener('click', ()=> {
 
 // Проверка на длинну выражения
 function checkLengthOfExpression(arg) {
-    if (arg.toString().length > 9) {
+    if (arg.toString().length > 8) {
         expression.innerHTML = 'error!'.toUpperCase();
         result.innerHTML = ':)';
         ex = '0';
