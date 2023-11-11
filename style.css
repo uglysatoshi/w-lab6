@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    background-color: #111318;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.display {
+    width: 300px;
+    height: 150px;
+
+}
+.basicText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+}
