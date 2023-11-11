@@ -5,12 +5,12 @@
     padding: 0;
 }
 .mainContainer {
-    border-radius: 30px;
+    border-radius: 36px;
     width: 270px;
     background: #111318;
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    padding: 10px 10px 13px 10px;
 }
 .display {
     display: flex;
@@ -44,51 +44,85 @@
     flex-direction: row;
 }
 .clear-btn {
-    width: 190px;
+    width: 185px;
     height: 60px;
     background: #563E5C;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .divide-btn {
     height: 60px;
     width: 60px;
     background: #3E4759;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .number-btn {
     height: 60px;
     width: 60px;
     background: #181C23;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .multiply-btn {
     height: 60px;
     width: 60px;
     background: #3E4759;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .minus-btn {
     height: 60px;
     width: 60px;
     background: #3E4759;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .plus-btn {
     height: 60px;
     width: 60px;
     background: #3E4759;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .delete-btn {
     height: 60px;
     width: 60px;
-    background: #181C23;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3E4759;
 }
 .equals-btn {
     background: #284777;
     height: 60px;
     width: 120px;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.basicText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23pt;
+    color: rgba(255,255,255,0.70);
+}
+.delete-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(100deg) brightness(70%) contrast(100%);
+}
