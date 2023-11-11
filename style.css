@@ -1,44 +1,94 @@
 * {
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
+    padding: 0;
 }
-.container-column{
-    border-radius: 35px;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
+.mainContainer {
+    border-radius: 30px;
+    width: 270px;
     background: #111318;
-    height: 100px;
-}
-.main-container{
-    border-radius: 35px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    padding: 5px;
 }
 .display {
-    width: 300px;
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #262B37;
+    width: 100%;
 }
-.basicText {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15pt;
+.input-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
 }
-#display {
-    background: #262b37;
-    border-radius: 20px;
+.input {
+    width: 60px;
+    height: 60px;
+    background: green;
+    border-radius: 30px;
 }
-.container-row {
-    margin: auto;
+.output-row {
+    height: 60px;
+    width: auto;
+}
+.number-row {
+    margin-top: 5px;
+    height: 60px;
+    width: 100%;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
-.container-row > div {
-    font-size: 30px;
-    height: 30px;
-    width: 30px;
-    border-radius: 10px;
-    background: thistle;
+.clear-btn {
+    width: 190px;
+    height: 60px;
+    background: #563E5C;
+    border-radius: 30px;
 }
+.divide-btn {
+    height: 60px;
+    width: 60px;
+    background: #3E4759;
+    border-radius: 30px;
+}
+.number-btn {
+    height: 60px;
+    width: 60px;
+    background: #181C23;
+    border-radius: 30px;
+}
+.multiply-btn {
+    height: 60px;
+    width: 60px;
+    background: #3E4759;
+    border-radius: 30px;
+}
+.minus-btn {
+    height: 60px;
+    width: 60px;
+    background: #3E4759;
+    border-radius: 30px;
+}
+.plus-btn {
+    height: 60px;
+    width: 60px;
+    background: #3E4759;
+    border-radius: 30px;
+}
+.delete-btn {
+    height: 60px;
+    width: 60px;
+    background: #181C23;
+    border-radius: 30px;
+}
+.equals-btn {
+    background: #284777;
+    height: 60px;
+    width: 120px;
+    border-radius: 30px;
+}
+

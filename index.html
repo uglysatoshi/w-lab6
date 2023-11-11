@@ -9,19 +9,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main-container">
-        <div class="container-column" id="display">
-            <div class="container-row" >
-                <div></div>
-                <div></div>
-                <div></div>
+    <div class="mainContainer">
+        <div class="display">
+            <div class="input-row">
+                <div class="input" id="inputFirstNumber"></div>
+                <div class="input" id="inputOperation"></div>
+                <div class="input" id="inputSecondNumber"></div>
             </div>
-            <div class="container-row" >
-                <div class="answer"></div>
-            </div>
+            <div class="output-row"></div>
         </div>
-        <div class="container-column" id="numbers">
-
+        <div class="number-row">
+            <div class="clear-btn"></div>
+            <div class="divide-btn"></div>
+        </div>
+        <div class="number-row">
+            <div class="number-btn" id="7"></div>
+            <div class="number-btn" id="8"></div>
+            <div class="number-btn" id="9"></div>
+            <div class="multiply-btn"></div>
+        </div>
+        <div class="number-row">
+            <div class="number-btn" id="4"></div>
+            <div class="number-btn" id="5"></div>
+            <div class="number-btn" id="6"></div>
+            <div class="minus-btn"></div>
+        </div>
+        <div class="number-row">
+            <div class="number-btn" id="1"></div>
+            <div class="number-btn" id="2"></div>
+            <div class="number-btn" id="3"></div>
+            <div class="plus-btn"></div>
+        </div>
+        <div class="number-row">
+            <div class="number-btn" id="0"></div>
+            <div class="delete-btn"></div>
+            <div class="equals-btn"></div>
         </div>
     </div>
     <script src="main.js"></script>
