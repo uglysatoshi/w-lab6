@@ -3,6 +3,7 @@
     margin-right: auto;
     box-sizing: border-box;
     padding: 0;
+    user-select: none;
 }
 .mainContainer {
     border-radius: 36px;
@@ -28,7 +29,6 @@
 .input {
     width: 60px;
     height: 60px;
-    background: green;
     border-radius: 30px;
 }
 .output-row {
@@ -51,8 +51,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.125s ease 0s;
 }
-.divide-btn {
+.clear-btn:hover {
+    transition: 0.3s ease 0s;
+    background: #725E77;
+    border-radius: 15px;
+}
+.operator-btn {
     height: 60px;
     width: 60px;
     background: #3E4759;
@@ -60,6 +66,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.125s ease 0s;
+}
+.operator-btn:hover {
+    transition: 0.3s ease 0s;
+    background: #5F6675;
+    border-radius: 15px;
 }
 .number-btn {
     height: 60px;
@@ -69,6 +81,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.125s ease 0s;
+}
+.number-btn:hover {
+    transition: 0.3s ease 0s;
+    background: #3E4248;
+    border-radius: 15px;
 }
 .multiply-btn {
     height: 60px;
@@ -114,6 +132,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.equals-btn:hover {
+    transition: 0.3s ease 0s;
+    background: #4C668E;
+    border-radius: 15px;
 }
 .basicText {
     font-family: 'Open Sans', sans-serif;
