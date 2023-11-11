@@ -1,21 +1,44 @@
 * {
-    padding: 0;
-    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
     box-sizing: border-box;
 }
-.container{
-    margin: auto;
-    background-color: #111318;
+.container-column{
     border-radius: 35px;
     display: flex;
     flex-direction: column;
+    width: 300px;
+    background: #111318;
+    height: 100px;
+}
+.main-container{
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
 .display {
     width: 300px;
     height: 150px;
-
 }
 .basicText {
     font-family: 'Open Sans', sans-serif;
     font-size: 15pt;
+}
+#display {
+    background: #262b37;
+    border-radius: 20px;
+}
+.container-row {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-row > div {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background: thistle;
 }
